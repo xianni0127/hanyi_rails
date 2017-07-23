@@ -28,6 +28,7 @@ class ChildrenController < ApplicationController
 
     respond_to do |format|
       if @child.save
+        ChildrenMailer.welcome_email(@child).deliver_now
         format.html { redirect_to @child, notice: 'Child was successfully created.' }
         format.json { render :show, status: :created, location: @child }
       else
@@ -69,6 +70,6 @@ class ChildrenController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def child_params
-      params.require(:child).permit(:name, :description, :picture)
+      params.require(:child).permit(:name, :description, :picture,:email,:login)
     end
 end

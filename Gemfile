@@ -13,6 +13,11 @@ gem 'sqlite3'
 
 gem 'mysql2'
 
+gem 'pry'
+gem 'pry-remote'
+gem 'pry-nav'
+
+# gem ''
 gem 'carrierwave'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'

@@ -11,6 +11,11 @@
 </p>
 
 <p>
+  <strong>Email:</strong>
+  <%= @child.email %>
+</p>
+
+<p>
   <strong>Picture:</strong>
   <%= image_tag(@child.picture_url,width:600) if @child.picture.present? %>
 </p>
