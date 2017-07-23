@@ -30,7 +30,7 @@ before_install:
  # deploy:
  #   provider: cloudfoundry
  #   username: xianni0127@sina.com
- #   password: Wych0604*
+ #   password: 
  #   api: https://api.run.pivotal.io
  #   organization: myawesomeorganization
  #   space: staging
