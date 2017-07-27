@@ -6,6 +6,12 @@ class ChildrenMailer < ApplicationMailer
     @url = 'http://www.gmail.com'
     mail(to: @child.email, subject:"Weclome to My Awesome Site")
   end
+
+  def auto_send(email)
+    @email = email
+    mail(to: email, subject:"Weclome to My Awesome Site")
+    puts "excute method"
+  end
 end
 
 class UserMailer < ApplicationMailer

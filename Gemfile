@@ -17,6 +17,9 @@ gem 'pry'
 gem 'pry-remote'
 gem 'pry-nav'
 
+#active job adapter
+gem 'sidekiq', '~> 4.2', '>= 4.2.7'
+
 # gem ''
 gem 'carrierwave'
 # Use Puma as the app server
@@ -41,6 +44,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# For Token store
+gem 'redis', '~> 3.3', '>= 3.3.2'
+
+# redis namespace support
+gem 'redis-namespace', '~> 1.5', '>= 1.5.2'
+gem 'nokogiri', '~> 1.6.8'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

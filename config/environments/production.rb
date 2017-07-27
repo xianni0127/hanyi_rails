@@ -65,7 +65,7 @@ Rails.application.configure do
    domain:               "gmail.com",
    user_name:            'jennyxian0127@gmail.com',
    password:             'Wych0604*',
-   authentication:       nil,
+   authentication:       'plain',
    enable_starttls_auto: true
 }
   # Use a different cache store in production.
