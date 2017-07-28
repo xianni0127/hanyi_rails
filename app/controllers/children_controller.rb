@@ -1,6 +1,6 @@
 class ChildrenController < ApplicationController
   before_action :set_child, only: [:show, :edit, :update, :destroy]
-
+   protect_from_forgery with: :null_session
   # GET /children
   # GET /children.json
   def index

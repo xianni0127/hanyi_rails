@@ -1,0 +1,5 @@
+:verbose: true
+:concurrency: 5
+:timeout: 8
+:queues:
+  - auto_sendemail
