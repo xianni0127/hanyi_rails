@@ -6,17 +6,16 @@ applications:
   path: .
   command: bundle exec rake db:migrate && bundle exec rails s -p $PORT
 
+  #config mysql2
+  services:
+      - db
+
 - name: sidekiq
   memory: 256M
   instances: 1
   # host: sidekiq
   # domain: cfapps.io
   path: .
-  command: bundle exec sidekiq
-  command: redis-server
+  command: bundle exec sidekiq  && redis-server
   services:
-
-  - sidekiq-redis:redis
-#config mysql2
-services:
-    - db
+    - sidekiq-redis:redis
