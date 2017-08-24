@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: version 0.0.1\n"
+"POT-Creation-Date: 2017-08-24 17:15+0800\n"
+"PO-Revision-Date: 2009-02-18 14:53+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n%10>=2 && n%10<=4 && (n%100<10 |"
+"| n%100>=20)) ? 1 : 2;\n"
+
+msgid "Are you sure?"
+msgstr "Czy na pewno?"
+
+msgid "Back"
+msgstr "Powrót"
+
+msgid "Car"
+msgstr "Auto"
+
+msgid "Car|Country"
+msgstr "Kraj"
+
+msgid "Car|Manual language"
+msgstr "Język instrukcji obsługi"
+
+msgid "Car|Model"
+msgstr "Model"
+
+msgid "Car|Wheels count"
+msgstr "Liczba kół"
+
+msgid "Children"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destroy"
+msgstr "Usuń"
+
+msgid "Edit"
+msgstr "Zmień"
+
+#, fuzzy
+msgid "Editing Child"
+msgstr "Zmień"
+
+msgid "Email"
+msgstr ""
+
+msgid "Listing cars"
+msgstr "Lista aut"
+
+msgid "Name"
+msgstr ""
+
+msgid "New Child"
+msgstr ""
+
+msgid "New car"
+msgstr "Nowe auto"
+
+msgid "Picture"
+msgstr ""
+
+msgid "Show"
+msgstr "Pokaż"
+
+msgid "test html_safe %{x}"
+msgstr ""
+
+msgid "this is a dynamic translation which was found thorugh gettext_test_log!"
+msgstr "to jest tłumaczenie dynamiczne, które zostało znalezione przez gettext_test_log!"
+
+#~ msgid "%{relative_time} ago"
+#~ msgstr "%{relative_time} temu"
+
+#~ msgid "Axis"
+#~ msgid_plural "Axis"
+#~ msgstr[0] "oś"
+#~ msgstr[1] "osie"
+#~ msgstr[2] "osi"
+
+#~ msgid "Car was successfully created."
+#~ msgstr "Auto zostało pomyślnie utworzone."
+
+#~ msgid "Car was successfully updated."
+#~ msgstr "Auto zostało pomyślnie zapisane."
+
+#~ msgid "Create"
+#~ msgstr "Utwórz"
+
+#~ msgid "Created"
+#~ msgstr "Utworzone"
+
+#~ msgid "Editing car"
+#~ msgstr "Edycja auta"
+
+#~ msgid "Month"
+#~ msgstr "Miesiąc"
+
+#~ msgid "Update"
+#~ msgstr "Aktualizuj"
+
+#~ msgid "activerecord.errors.models.car.attributes.model.blank"
+#~ msgstr "sorry my polish is bad :D but the point is that this is a I18n translation..."
+
+#~ msgid "country|should not be blank"
+#~ msgstr "i dont know polish, but this is enough to test it :D"

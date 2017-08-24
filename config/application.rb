@@ -13,6 +13,7 @@ module FisrtRails
 
     config.action_mailer.default_url_options = {host:'http://www.sina.com'}
     config.active_job.queue_adapter = :sidekiq
+    config.action_controller.permit_all_parameters = true
     # config.active_job.queue_name_prefix = Rails.env
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -21,3 +22,8 @@ module FisrtRails
     # config.i18n.default_locale = :de
   end
 end
+
+FastGettext.add_text_domain 'app', :path => 'locale'
+FastGettext.default_text_domain = 'app'
+FastGettext.default_available_locales = ['en','en_PR','de','pl']
+FastGettext.default_locale = :de

@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: version 0.0.1\n"
+"PO-Revision-Date: 2009-02-18 15:42+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Car"
+msgstr ""
+
+msgid "Car|Country"
+msgstr ""
+
+msgid "Car|Manual language"
+msgstr ""
+
+msgid "Car|Model"
+msgstr ""
+
+msgid "Car|Wheels count"
+msgstr ""
+
+msgid "Children"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Destroy"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Editing Child"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Listing cars"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "New Child"
+msgstr ""
+
+msgid "New car"
+msgstr ""
+
+msgid "Picture"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "test html_safe %{x}"
+msgstr "test <a href='/'>html_safe</a> %{x}"
+
+msgid "this is a dynamic translation which was found thorugh gettext_test_log!"
+msgstr ""

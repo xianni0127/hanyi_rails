@@ -1,2 +1,5 @@
 module ApplicationHelper
+  def current_url(extra_params={})
+    url_for params.permit(extra_params)
+  end
 end
