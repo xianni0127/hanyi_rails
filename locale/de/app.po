@@ -19,7 +19,7 @@ msgid "Are you sure?"
 msgstr "Bist du sicher?"
 
 msgid "Back"
-msgstr "Zurück"
+msgstr "@@Back@@"
 
 msgid "Car"
 msgstr "Auto"
@@ -57,18 +57,18 @@ msgstr "@@Email@@"
 
 
 msgid "Name"
-msgstr "@@@@"
+msgstr "@@Name@@"
 
 msgid "New Child"
-msgstr "@@@@"
+msgstr "@@New Child@@"
 
 
 
 msgid "Picture"
-msgstr "@@@@"
+msgstr "@@Picture@@"
 
 msgid "Show"
-msgstr "@@@@"
+msgstr "@@Show@@"
 
 
 msgid "Name:"

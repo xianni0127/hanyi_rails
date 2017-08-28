@@ -23,7 +23,7 @@ module FisrtRails
   end
 end
 
-FastGettext.add_text_domain 'app', :path => 'locale'
+FastGettext.add_text_domain 'app', :path => 'locale', :type => :po
 FastGettext.default_text_domain = 'app'
 FastGettext.default_available_locales = ['en','en_PR','de','pl']
-# FastGettext.default_locale = 'de'
+FastGettext.default_locale = 'de'
