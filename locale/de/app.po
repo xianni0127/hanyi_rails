@@ -37,26 +37,24 @@ msgid "Car|Wheels count"
 msgstr "Räderzahl"
 
 msgid "Children"
-msgstr "@@@@"
+msgstr "@@Children@@"
 
 msgid "Description"
-msgstr "@@@@"
+msgstr "@@Description@@"
 
 msgid "Destroy"
-msgstr "@@@@"
+msgstr "@@Destroy@@"
 
 msgid "Edit"
-msgstr "@@@@"
+msgstr "@@Edit@@"
 
-#, fuzzy
+
 msgid "Editing Child"
-msgstr "@@@@"
+msgstr "@@Editing Child@@"
 
 msgid "Email"
-msgstr "@@@@"
+msgstr "@@Email@@"
 
-msgid "Listing cars"
-msgstr "Alle Autos"
 
 msgid "Name"
 msgstr "@@@@"
@@ -64,14 +62,36 @@ msgstr "@@@@"
 msgid "New Child"
 msgstr "@@@@"
 
-msgid "New car"
-msgstr "Neues Auto"
+
 
 msgid "Picture"
 msgstr "@@@@"
 
 msgid "Show"
 msgstr "@@@@"
+
+
+msgid "Name:"
+msgstr "@@Name:@@"
+
+
+msgid "Description:"
+msgstr "@@Description:@@"
+
+msgid "Email:"
+msgstr "@@Email:@@"
+
+msgid "Picture:"
+msgstr "@@Picture:@@"
+
+msgid "Rails Girls 2017"
+msgstr "@@Rails Girls 2017@@"
+
+msgid "Create Child"
+msgstr "@@Create Child@@"
+
+msgid "Editing Child"
+msgstr "@@Editing Child@@"
 
 msgid "test html_safe %{x}"
 msgstr ""

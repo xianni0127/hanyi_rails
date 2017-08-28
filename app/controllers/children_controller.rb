@@ -28,8 +28,8 @@ class ChildrenController < ApplicationController
 
     respond_to do |format|
       if @child.save
-        # ChildrenMailer.welcome_email(@child).deliver_now
-        AutoSendemailJob.perform_later @child.email
+        ChildrenMailer.welcome_email(@child).deliver_now
+        # AutoSendemailJob.perform_later @child.email
 
         format.html { redirect_to @child, notice: 'Child was successfully created.' }
         format.json { render :show, status: :created, location: @child }
