@@ -10,12 +10,12 @@ applications:
   services:
       - db
 
-- name: sidekiq
-  memory: 256M
-  instances: 1
-  # host: sidekiq
-  # domain: cfapps.io
-  path: .
-  command: bundle exec sidekiq  && redis-server
-  services:
-    - sidekiq-redis:redis
+# - name: sidekiq
+#   memory: 256M
+#   instances: 1
+#   # host: sidekiq
+#   # domain: cfapps.io
+#   path: .
+#   command: bundle exec sidekiq  && redis-server
+#   services:
+#     - sidekiq-redis:redis
