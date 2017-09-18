@@ -1,0 +1,15 @@
+
+<%= form_for :child, :url => {:action => 'login'} do |f| %>
+  <p>
+    <%= _('Username')%>: <%= f.text_field :name, id: :child_name %>
+  </p>
+
+  <p>
+    <%= _('Password')%>: <%= f.password_field :password, id: :child_password %>
+  </p>
+
+  <div class="actions">
+    <%= submit_tag _('Login')%>
+  </div>
+  <%= link_to _('Register'), children_path %>
+<% end %>

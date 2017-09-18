@@ -18,7 +18,7 @@
   </thead>
 
   <tbody>
-    <% @children.each do |child| %>
+    <% Child.all.each do |child| %>
       <tr>
         <td><%= child.name %></td>
         <td><%= child.description %></td>
@@ -36,4 +36,4 @@
 
 <%= link_to _('New Child'), new_child_path %>
 <br>
-<%= render 'language' %>
+<%= render 'children/language' %>

@@ -1,0 +1,22 @@
+
+<%= form_for :child, :url => {:action => 'register'} do |f| %>
+  <p>
+    <%= _('Username')%>: <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= _('Email')%>: <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <%= _('Password')%>: <%= f.password_field :password %>
+  </p>
+
+  <p>
+    <%= _('Confirm Password')%>: <%= f.password_field :password %>
+  </p>
+
+  <div class="actions">
+    <%= submit_tag _('Register')%>
+  </div>
+<% end %>

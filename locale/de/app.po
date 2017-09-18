@@ -96,5 +96,20 @@ msgstr "@@Editing Child@@"
 msgid "test html_safe %{x}"
 msgstr ""
 
+msgid "Username"
+msgstr "@@Username@@"
+
+msgid "Password"
+msgstr "@@Password@@"
+
+msgid "Login"
+msgstr "@@Login@@"
+
+msgid "Register"
+msgstr "@@Register@@"
+
+msgid "Child was successfully updated"
+msgstr "@@Child was successfully updated@@"
+
 msgid "this is a dynamic translation which was found thorugh gettext_test_log!"
 msgstr "Dies ist eine dynamische Übersetzung, die durch gettext_test_log gefunden wurde!"
