@@ -52,11 +52,12 @@ gem 'redis-namespace', '~> 1.5', '>= 1.5.2'
 gem 'nokogiri', '~> 1.6.8'
 
 #i18n
-gem 'gettext_i18n_rails'
+# gem 'gettext_i18n_rails'
+#
+# gem 'gettext', '>=3.0.2', :require => false, :group => :development
+# gem 'ruby_parser', :require => false, :group => :development
 
-gem 'gettext', '>=3.0.2', :require => false, :group => :development
-gem 'ruby_parser', :require => false, :group => :development
-
+gem 'rails-i18n'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

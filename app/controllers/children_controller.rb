@@ -31,7 +31,7 @@ class ChildrenController < ApplicationController
         ChildrenMailer.welcome_email(@child).deliver_now
         # AutoSendemailJob.perform_later @child.email
 
-        format.html { redirect_to @child, notice: _('Child was successfully created.') }
+        format.html { redirect_to @child, notice: t('Child was successfully created.') }
         format.json { render :show, status: :created, location: @child }
       else
         format.html { render :new }
@@ -45,7 +45,7 @@ class ChildrenController < ApplicationController
   def update
     respond_to do |format|
       if @child.update(child_params)
-        flash[:notice] = _('Child was successfully updated.')
+        flash[:notice] = t('Child was successfully updated.')
         format.html { redirect_to @child}
         format.json { render :show, status: :ok, location: @child }
       else
@@ -60,7 +60,7 @@ class ChildrenController < ApplicationController
   def destroy
     @child.destroy
     respond_to do |format|
-      format.html { redirect_to children_url, notice: _('Child was successfully destroyed.') }
+      format.html { redirect_to children_url, notice: t('Child was successfully destroyed.') }
       format.json { head :no_content }
     end
   end

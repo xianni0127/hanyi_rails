@@ -18,12 +18,13 @@ module FisrtRails
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    # config.i18n.default_locale = :de
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*.{rb,yml}').to_s]
+    config.i18n.default_locale = :de
+    config.i18n.available_locales=[:en, :pt,:de, :pl, :en_PR]
   end
 end
-
-FastGettext.add_text_domain 'app', :path => 'locale', :type => :po
-FastGettext.default_text_domain = 'app'
-FastGettext.default_available_locales = ['en','en_PR','de','pl']
-FastGettext.default_locale = 'de'
+#
+# FastGettext.add_text_domain 'app', :path => 'locale', :type => :po
+# FastGettext.default_text_domain = 'app'
+# FastGettext.default_available_locales = ['en','en_PR','de','pl']
+# FastGettext.default_locale = 'de'

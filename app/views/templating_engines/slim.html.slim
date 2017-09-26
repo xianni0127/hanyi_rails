@@ -1,7 +1,7 @@
-p = _('This paragraph is rendered using the _() method in a slim view.')
+p = t('This paragraph is rendered using the t() method in a slim view.')
 
-p = s_('slim|This paragraph is rendered using the s_() method under the namespace "slim" in a slim view.')
+p = st('slim|This paragraph is rendered using the st() method under the namespace "slim" in a slim view.')
 
-p = n_('This paragraph is rendered using the n_() method in a slim view.', 'These texts are rendered using the n_() method in a slim view.', 1)
+p = nt('This paragraph is rendered using the nt() method in a slim view.', 'These texts are rendered using the nt() method in a slim view.', 1)
 
-p = n_('This paragraph is rendered using the n_() method in a slim view.', 'These paragraphs are rendered using the n_() method in a slim view.', 2)
+p = nt('This paragraph is rendered using the nt() method in a slim view.', 'These paragraphs are rendered using the nt() method in a slim view.', 2)

@@ -13,30 +13,30 @@
   <% locale = (I18n.locale == :"en-PR" ? :"en" : I18n.locale) %>
   <% I18n.with_locale locale do %>
   <div class="field">
-    <form.label> <%=  _('Name') %> </>
+    <form.label> <%=  t('Name') %> </>
     <%= form.text_field :name, id: :child_name %>
   </div>
 
   <div class="field">
 
-    <form.label> <%=  _('Email') %> </>
+    <form.label> <%=  t('Email') %> </>
     <%= form.text_field :email, id: :child_email %>
   </div>
 
   <div class="field">
 
-    <form.label> <%=  _('Description') %> </>
+    <form.label> <%=  t('Description') %> </>
     <%= form.text_area :description, id: :child_description %>
   </div>
 
   <div class="field">
 
-    <form.label> <%=  _('Picture') %> </>
+    <form.label> <%=  t('Picture') %> </>
     <%= form.file_field :picture, id: :child_picture %>
   </div>
   <% end %>
   <div class="actions">
-    <%= submit_tag _('Create Child')%>
+    <%= submit_tag ('Create Child')%>
   </div>
 
 <% end %>

@@ -1,4 +1,4 @@
-# German translations for Ruby on Rails 
+# German translations for Ruby on Rails
 # by Clemens Kofler (clemens@railway.at)
 
 de:
@@ -13,7 +13,7 @@ de:
     abbr_day_names: [So, Mo, Di, Mi, Do, Fr, Sa]
     month_names: [~, Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
     abbr_month_names: [~, Jan, Feb, Mär, Apr, Mai, Jun, Jul, Aug, Sep, Okt, Nov, Dez]
-    order: 
+    order:
       - :day
       - :month
       - :year
@@ -138,3 +138,19 @@ de:
         one:    "Konnte dieses %{model} Objekt nicht speichern: 1 Fehler."
         other:  "Konnte dieses %{model} Objekt nicht speichern: %{count} Fehler."
       body: "Bitte überprüfen Sie die folgenden Felder:"
+
+
+
+de:
+    Children: "@@Children@@"
+    Name: "@@Name@@"
+    Description: "@@Description@@"
+    Picture: "@@Picture@@"
+    Email: "@@Email@@"
+    Show: "@@Show@@"
+    Edit: "@@Edit@@"
+    Destroy: "@@Destroy@@"
+    New Child:  "@@New Child@@"
+    this is DE: “@@this is DE@@”
+    Rails Girls 2017: “@@Rails Girls 2017@@”
+    Children detail: "@@Children detail@@"
