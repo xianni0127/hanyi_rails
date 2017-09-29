@@ -4,14 +4,16 @@ class LoginController < ApplicationController
 
   def login
     unless request.get?
-      childname=params[:name]
-      password=params[:password]
+      childname=params[:child][:name]
+      password=params[:child][:password]
       @hint = "ok"
       @child = Child.find_by_name(childname)
-      debugger
+
       if @child.class == NilClass
         @hint = 'Unregisted Children!'
-      elseif @child.password == params[:password]
+      # elseif @child.password_db == params[:child][:password]
+    elsif @child.password_db == "password"
+
         @hint = "Welcome back,"
           render template: "children/index"
       else
